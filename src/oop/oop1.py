@@ -20,8 +20,7 @@
 
 ''' Base Class '''
 class Vehicle:
-    def __init__(self, name):
-        self.name = name
+    pass
 
 
 ''' Derived Class (from Vehicle)'''
@@ -43,5 +42,4 @@ class Airplane(FlightVehicle):
     pass
 ''' Derived Class (from FlightVehicle)'''
 class Starship(FlightVehicle):
-
-
+    pass
